@@ -23,3 +23,23 @@ p {
 h1, h2, h3 {
     color: blueviolet;
 }
+
+
+.direct > p {
+    background-color: bisque;
+}
+
+
+/* bezposredni potomek */
+
+.child div + div {
+    font-size: 72px;
+    color: coral;
+}
+
+
+/* selektor wykluczajacy */
+
+.wyklucz p:not(.not){
+    background-color: gray;
+}

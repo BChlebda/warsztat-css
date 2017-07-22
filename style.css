@@ -1,5 +1,25 @@
+
+/* selektor znacznika */
 p {
     font-size: 18px;
     color:blue;
     background-color: yellow;
+}
+
+
+/* selektor identyfikatora */
+#selektory p {
+    background-color: azure;
+}
+
+
+/* selektor klasy */
+.example p {
+    font-size: 36px;
+}
+
+
+/* łączenie selektorów */
+h1, h2, h3 {
+    color: blueviolet;
 }
